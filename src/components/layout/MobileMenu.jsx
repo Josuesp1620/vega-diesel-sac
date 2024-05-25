@@ -63,7 +63,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     </ul>
                                     <div className={isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div> */}
                                 </li>
-                                <li><Link to="/about/" onClick={handleMobileMenu}>About Us</Link></li>
+                                <li><Link to="/about/" onClick={handleMobileMenu}>Sobre Nosotros</Link></li>
 
                                 <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link to="/#" onClick={handleMobileMenu}>Servicios</Link>
                                     {/* <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
