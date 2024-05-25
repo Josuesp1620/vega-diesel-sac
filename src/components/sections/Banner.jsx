@@ -41,55 +41,16 @@ export default function Banner() {
                 style={{ backgroundImage: "url(assets/images/banner/banner-10.png)" }}
                 >
                 <div className="auto_container">
-                    <div className="content-inner">
-                    <div className="content__box">
-                        <div className="sub__title">
-                        <h6>Image 1</h6>
-                        </div>
-                        <h1>
-                        Best Roofing Service <br /> &amp; Consulting
-                        </h1>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit <br /> Turpis
-                        ridiculus tellus.
-                        </p>
-                        <div className="btn-box">
-                        <Link className="btn-one" to="/service-details">
-                            {/* <em>
-                            <i />
-                            <i />
-                            <i />
-                            <i />
-                            <i />
-                            <i />
-                            <i />
-                            </em> */}
-                            <span>Take Our Service</span>
-                        </Link>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            </SwiperSlide>
-
-            <SwiperSlide className="slide-item">
-                <div
-                    className="slide__item__content"
-                    style={{ backgroundImage: "url(assets/images/banner/banner-11.png)" }}
-                    >
-                    <div className="auto_container">
                         <div className="content-inner">
                         <div className="content__box">
                             <div className="sub__title">
-                            <h6>Image 2</h6>
+                            <h6>Imagen 1</h6>
                             </div>
                             <h1>
-                            Best Roofing Service <br /> &amp; Consulting
+                            Titulo
                             </h1>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit <br /> Turpis
-                            ridiculus tellus.
+                            Texto de descripción de imagen
                             </p>
                             <div className="btn-box">
                             <Link className="btn-one" to="/service-details">
@@ -102,7 +63,44 @@ export default function Banner() {
                                 <i />
                                 <i />
                                 </em> */}
-                                <span>Take Our Service</span>
+                                <span>Solicitar Servicio</span>
+                            </Link>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="slide-item">
+                <div
+                    className="slide__item__content"
+                    style={{ backgroundImage: "url(assets/images/banner/banner-11.png)" }}
+                    >
+                   <div className="auto_container">
+                        <div className="content-inner">
+                        <div className="content__box">
+                            <div className="sub__title">
+                            <h6>Imagen 2</h6>
+                            </div>
+                            <h1>
+                            Titulo
+                            </h1>
+                            <p>
+                            Texto de descripción de imagen
+                            </p>
+                            <div className="btn-box">
+                            <Link className="btn-one" to="/service-details">
+                                {/* <em>
+                                <i />
+                                <i />
+                                <i />
+                                <i />
+                                <i />
+                                <i />
+                                <i />
+                                </em> */}
+                                <span>Solicitar Servicio</span>
                             </Link>
                             </div>
                         </div>
@@ -119,14 +117,13 @@ export default function Banner() {
                         <div className="content-inner">
                         <div className="content__box">
                             <div className="sub__title">
-                            <h6>Image 3</h6>
+                            <h6>Imagen 3</h6>
                             </div>
                             <h1>
-                            Best Roofing Service <br /> &amp; Consulting
+                            Titulo
                             </h1>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit <br /> Turpis
-                            ridiculus tellus.
+                            Texto de descripción de imagen
                             </p>
                             <div className="btn-box">
                             <Link className="btn-one" to="/service-details">
@@ -139,7 +136,7 @@ export default function Banner() {
                                 <i />
                                 <i />
                                 </em> */}
-                                <span>Take Our Service</span>
+                                <span>Solicitar Servicio</span>
                             </Link>
                             </div>
                         </div>
