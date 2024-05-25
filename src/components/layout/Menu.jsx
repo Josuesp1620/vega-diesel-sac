@@ -6,7 +6,7 @@ export default function Menu() {
         <>
                                     <ul className="navigation clearfix">
                                         <li className="dropdown">
-                                            <Link to="/">Home</Link>
+                                            <Link to="/">Inicio</Link>
                                             {/* <ul>
                                                 <li><Link to="/">Home One</Link></li>
                                                 <li><Link to="/index-2">Home Two</Link></li>
@@ -22,15 +22,15 @@ export default function Menu() {
                                                 </li>
                                             </ul> */}
                                         </li>
-                                        <li><Link to="/about">About Us</Link></li>
-                                        <li className="dropdown"><Link to="#">Services</Link>
-                                            <ul>
+                                        <li><Link to="/about">Sobre Nosotros</Link></li>
+                                        <li className="dropdown"><Link to="#">Servicios</Link>
+                                            {/* <ul>
                                                 <li><Link to="/services">Services</Link></li>
                                                 <li><Link to="/services-single">Services Single</Link></li>
                                                 <li><Link to="/services-details">Services Details</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
-                                        <li className="dropdown"><Link to="#">Pages</Link>
+                                        {/* <li className="dropdown"><Link to="#">Pages</Link>
                                             <ul>
                                                 <li className="dropdown"><Link to="#">Team</Link>
                                                     <ul>
@@ -64,15 +64,15 @@ export default function Menu() {
                                                 <li><Link to="/pricing">Pricing</Link></li>
                                                 <li><Link to="/error">Error</Link></li>
                                             </ul>
-                                        </li>
-                                        <li className="dropdown"><Link to="#">News</Link>
+                                        </li> */}
+                                        {/* <li className="dropdown"><Link to="#">News</Link>
                                             <ul>
                                                 <li><Link to="/blog-grid">Blog Grid</Link></li>
                                                 <li><Link to="/blog-standard">Blog Standard</Link></li>
                                                 <li><Link to="/blog-details">Blog Details</Link></li>
                                             </ul>
-                                        </li>  
-                                        <li><Link to="/contact"> Contact </Link></li>     
+                                        </li>   */}
+                                        <li><Link to="/contact"> Contacto </Link></li>     
                                     </ul>
         </>
     )
