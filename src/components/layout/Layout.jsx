@@ -56,7 +56,7 @@ export default function Layout({ breadcrumbTitle, children, wrapperCls }) {
 
                 <Footer2 />
             </div>
-            <BackToTop scroll={scroll} />
+            {/* <BackToTop scroll={scroll} /> */}
         </>
     )
 }
