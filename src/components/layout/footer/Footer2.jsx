@@ -68,14 +68,14 @@ export default function Footer2() {
                                 donec risus.
                             </li> */}
                             <li>
-                                <span>Add:</span> Cal. Azalias Mza. Q Lote. 10 Apv. Sol de Santa Anita (Altura Capilla Inmaculada)
+                                <span>Dirección:</span> Cal. Azalias Mza. Q Lote. 10 Apv. Sol de Santa Anita (Altura Capilla Inmaculada)
                             </li>
                             <li>
-                                <span>Email:</span>{" "}
+                                <span>Correo:</span>{" "}
                                 <Link to="mailto:example@gmail.com">vegadiesel@gmail.com</Link>
                             </li>
                             <li>
-                                <span>Phone:</span>{" "}
+                                <span>Teléfono:</span>{" "}
                                 <Link to="tel:3336660000"> +51 999 374 434</Link>
                             </li>
                             </ul>
