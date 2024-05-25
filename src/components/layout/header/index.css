@@ -1,0 +1,201 @@
+
+/** main-header **/
+
+.main-header{
+    position:relative;
+    left:0px;
+    top:0px;
+    z-index:999;
+    width:100%;
+    transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -webkit-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+  }
+  header.main-header.style-one .logo-box {
+    padding: 0px 10px 0px 0px;
+  }
+  .sticky-header{
+    position:fixed;
+    opacity:0;
+    visibility:hidden;
+    left:0px;
+    top:0px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width:100%;
+    z-index:0;
+    transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -webkit-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+  }
+  .fixed-header .sticky-header{
+    z-index:999;
+    opacity:1;
+    visibility:visible;
+    -ms-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -op-animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -ms-animation-duration: 500ms;
+    -moz-animation-duration: 500ms;
+    -op-animation-duration: 500ms;
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+    -ms-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -op-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -ms-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -op-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+  .anim-icon .icon {
+    position: absolute;
+    background-repeat: no-repeat;
+  }
+  /** header-lower **/
+  
+  .fixed-header .sticky-header .outer-box {
+    margin: 0px 12px !important;
+  }
+  .main-header .outer-box{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main-header .logo-box {
+    position: relative;
+    display: block;
+    padding: 0px 106px 0px 0px;
+    background-repeat: no-repeat;
+  }
+  .main-header .logo-box .logo {
+    padding: 30px 96px 30px 70px;
+    background-repeat: no-repeat;
+  }
+  .main-header .logo-box .logo img{
+    width: 154px;
+    height: 60px;
+  }
+  header.main-header.style-three .logo-box .logo img{
+    width: 154px;
+    height: 50px;
+  }
+  header.main-header.style-three .sticky-header .logo-box .logo img{
+    width: 154px;
+    height: 60px;
+  }
+  .main-header .menu-area {
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .main-header.style-one .menu-right-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .main-header.style-one .menu-right-content li{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .main-header.style-one .menu-right-content li:last-child{
+    margin-right: 0px;
+  }
+  .main-header.style-one .menu-right-content .user-btn a,
+  .main-header.style-one .menu-right-content .cart-btn a{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    transition: all 500ms ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+/* headre-style-four */
+
+.header__four__left {
+  display: flex;
+}
+.main-header.style-four .logo-box{
+  padding: 0px 70px 0px 0px;
+}
+.main-header.style-four .header__right{
+  padding-right: 0px;
+}
+.main-header.style-four .btn-four {
+  background: var(--theme-color);
+  padding: 51px 50px;
+  color: var(--white-color);
+  font-family: var(--inter);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+}
+.header__right__number a:hover span{
+  color: var(--theme-color);
+}
+.header__right__number a{
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--theme-color);
+}
+.main-header.style-four .btn-four:hover{
+  color: var(--white-color) !important;
+}
+.main-header.style-four .header__right__button>div {
+  margin-right: 60px;
+}
+.main-header.style-four .main-menu .navigation > li{
+  margin: 0px 15px;
+}
+.main-header.style-four .serach-button-style1:after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  display: inline-block;
+  top: -11px;
+  right: -26px;
+  background: var(--higer-secondary-color);
+}
+.main-header.style-four .serach-button-style1:before {
+  content: "";
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  display: inline-block;
+  top: -11px;
+  left: -24px;
+  background: var(--higer-secondary-color);
+}
+
+/* headre-style-four end */

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
+import './index.css'
+import { Menu, MobileMenu } from "./menu"
 
-import MobileMenu from "../MobileMenu"
-import Menu from "../Menu"
 export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
     return (
 
