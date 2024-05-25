@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout";
 
 export const ContactPage = () => {
     return (
-        <Layout>
+        <Layout breadcrumbTitle={'Contacto'}>
             <div>
                 {/*contact-page */}
                 <section className="contact__page see__pad p_relative">
