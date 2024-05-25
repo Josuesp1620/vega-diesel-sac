@@ -59,17 +59,19 @@ export default function TestimonialSlider3() {
                 <SwiperSlide className="slide-item">
                     <div className="inner__content__four">
                         <div className="service__content__four">
-                            <div className="image_layer">
+                        <div className="image_layer">
                             <div
                                 className="image__hover__bg__one"
                                 style={{
-                                backgroundImage: "url(assets/images/shape/shape-50.png)"
+                                background: '#2D2D30',
+                                borderRadius: '20px',
                                 }}
                             />
                             <div
                                 className="image__hover__bg__two"
                                 style={{
-                                backgroundImage: "url(assets/images/shape/shape-51.png)"
+                                background: '#F13131',
+                                borderRadius: '20px',
                                 }}
                             />
                             </div>
@@ -78,18 +80,20 @@ export default function TestimonialSlider3() {
                                 <div
                                 className="icon__hover__bg__one"
                                 style={{
-                                    backgroundImage: "url(assets/images/shape/shape-49.png)"
+                                    background: '#F13131',
+                                    borderRadius: '20px',
                                 }}
                                 />
                                 <div
                                 className="icon__hover__bg__two"
                                 style={{
-                                    backgroundImage: "url(assets/images/shape/shape-48.png)"
+                                    background: '#3D3C3F',
+                                    borderRadius: '20px'
                                 }}
                                 />
                                 <div className="icon__outer">
                                 <div className="icon__bg">
-                                    <span className="icon-16" />
+                                    <span className="icon-35" />
                                 </div>
                                 </div>
                             </div>
@@ -101,12 +105,6 @@ export default function TestimonialSlider3() {
                                 Alta disponibilidad de profesionales y trabajadores especializados en mantenimiento
                                 </p>
                             </div>
-                            {/* <div className="more__btn">
-                                <Link to="/services-details">
-                                Read More <span className="icon-53" />{" "}
-                                <span className="icon-52" />
-                                </Link>
-                            </div> */}
                             </div>
                         </div>
                     </div>
@@ -119,13 +117,15 @@ export default function TestimonialSlider3() {
                             <div
                                 className="image__hover__bg__one"
                                 style={{
-                                backgroundImage: "url(assets/images/shape/shape-50.png)"
+                                background: '#2D2D30',
+                                borderRadius: '20px',
                                 }}
                             />
                             <div
                                 className="image__hover__bg__two"
                                 style={{
-                                backgroundImage: "url(assets/images/shape/shape-51.png)"
+                                background: '#F13131',
+                                borderRadius: '20px',
                                 }}
                             />
                             </div>
@@ -134,13 +134,15 @@ export default function TestimonialSlider3() {
                                 <div
                                 className="icon__hover__bg__one"
                                 style={{
-                                    backgroundImage: "url(assets/images/shape/shape-49.png)"
+                                    background: '#F13131',
+                                    borderRadius: '20px',
                                 }}
                                 />
                                 <div
                                 className="icon__hover__bg__two"
                                 style={{
-                                    backgroundImage: "url(assets/images/shape/shape-48.png)"
+                                    background: '#3D3C3F',
+                                    borderRadius: '20px'
                                 }}
                                 />
                                 <div className="icon__outer">
@@ -157,12 +159,6 @@ export default function TestimonialSlider3() {
                                 Soporte de energía en eventos corporativos y especiales
                                 </p>
                             </div>
-                            {/* <div className="more__btn">
-                                <Link to="/services-details">
-                                Read More <span className="icon-53" />{" "}
-                                <span className="icon-52" />
-                                </Link>
-                            </div> */}
                             </div>
                         </div>
                     </div>
@@ -172,39 +168,43 @@ export default function TestimonialSlider3() {
                     <div className="inner__content__four">
                         <div className="service__content__four">
                             <div className="image_layer">
-                            <div
-                                className="image__hover__bg__one"
-                                style={{
-                                backgroundImage: "url(assets/images/shape/shape-50.png)"
-                                }}
-                            />
-                            <div
-                                className="image__hover__bg__two"
-                                style={{
-                                backgroundImage: "url(assets/images/shape/shape-51.png)"
-                                }}
-                            />
-                            </div>
-                            <div className="lower__content__four">
-                            <div className="icon__box p_ralative">
                                 <div
-                                className="icon__hover__bg__one"
-                                style={{
-                                    backgroundImage: "url(assets/images/shape/shape-49.png)"
-                                }}
+                                    className="image__hover__bg__one"
+                                    style={{
+                                    background: '#2D2D30',
+                                    borderRadius: '20px',
+                                    }}
                                 />
                                 <div
-                                className="icon__hover__bg__two"
-                                style={{
-                                    backgroundImage: "url(assets/images/shape/shape-48.png)"
-                                }}
+                                    className="image__hover__bg__two"
+                                    style={{
+                                    background: '#F13131',
+                                    borderRadius: '20px',
+                                    }}
                                 />
-                                <div className="icon__outer">
-                                <div className="icon__bg">
-                                    <span className="icon-12" />
                                 </div>
+                                <div className="lower__content__four">
+                                <div className="icon__box p_ralative">
+                                    <div
+                                    className="icon__hover__bg__one"
+                                    style={{
+                                        background: '#F13131',
+                                        borderRadius: '20px',
+                                    }}
+                                    />
+                                    <div
+                                    className="icon__hover__bg__two"
+                                    style={{
+                                        background: '#3D3C3F',
+                                        borderRadius: '20px'
+                                    }}
+                                    />
+                                    <div className="icon__outer">
+                                    <div className="icon__bg">
+                                        <span className="icon-35" />
+                                    </div>
+                                    </div>
                                 </div>
-                            </div>
                             <div className="service__text">
                                 <h4>
                                 <Link to="/services-details">Suministro de energía en torres grúa </Link>
@@ -213,12 +213,6 @@ export default function TestimonialSlider3() {
                                 Nuestras atenciones son en camionetas 100% implementadas para los servicios
                                 </p>
                             </div>
-                            {/* <div className="more__btn">
-                                <Link to="/services-details">
-                                Read More <span className="icon-53" />{" "}
-                                <span className="icon-52" />
-                                </Link>
-                            </div> */}
                             </div>
                         </div>
                     </div>
@@ -227,17 +221,19 @@ export default function TestimonialSlider3() {
                 <SwiperSlide className="slide-item">
                     <div className="inner__content__four">
                         <div className="service__content__four">
-                            <div className="image_layer">
+                        <div className="image_layer">
                             <div
                                 className="image__hover__bg__one"
                                 style={{
-                                backgroundImage: "url(assets/images/shape/shape-50.png)"
+                                background: '#2D2D30',
+                                borderRadius: '20px',
                                 }}
                             />
                             <div
                                 className="image__hover__bg__two"
                                 style={{
-                                backgroundImage: "url(assets/images/shape/shape-51.png)"
+                                background: '#F13131',
+                                borderRadius: '20px',
                                 }}
                             />
                             </div>
@@ -246,18 +242,20 @@ export default function TestimonialSlider3() {
                                 <div
                                 className="icon__hover__bg__one"
                                 style={{
-                                    backgroundImage: "url(assets/images/shape/shape-49.png)"
+                                    background: '#F13131',
+                                    borderRadius: '20px',
                                 }}
                                 />
                                 <div
                                 className="icon__hover__bg__two"
                                 style={{
-                                    backgroundImage: "url(assets/images/shape/shape-48.png)"
+                                    background: '#3D3C3F',
+                                    borderRadius: '20px'
                                 }}
                                 />
                                 <div className="icon__outer">
                                 <div className="icon__bg">
-                                    <span className="icon-19" />
+                                    <span className="icon-35" />
                                 </div>
                                 </div>
                             </div>
@@ -269,472 +267,10 @@ export default function TestimonialSlider3() {
                                 Venta de grupos electrógenos nuevos encapsulados marca GENPEPOWER.
                                 </p>
                             </div>
-                            {/* <div className="more__btn">
-                                <Link to="/services-details">
-                                Read More <span className="icon-53" />{" "}
-                                <span className="icon-52" />
-                                </Link>
-                            </div> */}
                             </div>
                         </div>
                     </div>
-                </SwiperSlide>
-
-                {/* <SwiperSlide className="slide-item">
-                <div className="inner__content__four">
-                    <div className="service__content__four">
-                        <div className="image_layer">
-                        <div
-                            className="image__hover__bg__one"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-50.png)"
-                            }}
-                        />
-                        <div
-                            className="image__hover__bg__two"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-51.png)"
-                            }}
-                        />
-                        </div>
-                        <div className="lower__content__four">
-                        <div className="icon__box p_ralative">
-                            <div
-                            className="icon__hover__bg__one"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-49.png)"
-                            }}
-                            />
-                            <div
-                            className="icon__hover__bg__two"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-48.png)"
-                            }}
-                            />
-                            <div className="icon__outer">
-                            <div className="icon__bg">
-                                <span className="icon-27" />
-                            </div>
-                            </div>
-                        </div>
-                        <div className="service__text">
-                            <h4>
-                            <Link to="/services-details">Roofing Layer</Link>
-                            </h4>
-                            <p>
-                            Suspendisse varius etiam est tempus nec vitae orci sodales
-                            nec at diam in sed.
-                            </p>
-                        </div>
-                        <div className="more__btn">
-                            <Link to="/services-details">
-                            Read More <span className="icon-53" />{" "}
-                            <span className="icon-52" />
-                            </Link>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="slide-item">
-                <div className="inner__content__four">
-                    <div className="service__content__four">
-                        <div className="image_layer">
-                        <div
-                            className="image__hover__bg__one"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-50.png)"
-                            }}
-                        />
-                        <div
-                            className="image__hover__bg__two"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-51.png)"
-                            }}
-                        />
-                        </div>
-                        <div className="lower__content__four">
-                        <div className="icon__box p_ralative">
-                            <div
-                            className="icon__hover__bg__one"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-49.png)"
-                            }}
-                            />
-                            <div
-                            className="icon__hover__bg__two"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-48.png)"
-                            }}
-                            />
-                            <div className="icon__outer">
-                            <div className="icon__bg">
-                                <span className="icon-8" />
-                            </div>
-                            </div>
-                        </div>
-                        <div className="service__text">
-                            <h4>
-                            <Link to="/services-details">Damage Repair</Link>
-                            </h4>
-                            <p>
-                            Suspendisse varius etiam est tempus nec vitae orci sodales
-                            nec at diam in sed.
-                            </p>
-                        </div>
-                        <div className="more__btn">
-                            <Link to="/services-details">
-                            Read More <span className="icon-53" />{" "}
-                            <span className="icon-52" />
-                            </Link>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="slide-item">
-                <div className="inner__content__four">
-                    <div className="service__content__four">
-                        <div className="image_layer">
-                        <div
-                            className="image__hover__bg__one"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-50.png)"
-                            }}
-                        />
-                        <div
-                            className="image__hover__bg__two"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-51.png)"
-                            }}
-                        />
-                        </div>
-                        <div className="lower__content__four">
-                        <div className="icon__box p_ralative">
-                            <div
-                            className="icon__hover__bg__one"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-49.png)"
-                            }}
-                            />
-                            <div
-                            className="icon__hover__bg__two"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-48.png)"
-                            }}
-                            />
-                            <div className="icon__outer">
-                            <div className="icon__bg">
-                                <span className="icon-14" />
-                            </div>
-                            </div>
-                        </div>
-                        <div className="service__text">
-                            <h4>
-                            <Link to="/services-details">Roof Cornering</Link>
-                            </h4>
-                            <p>
-                            Suspendisse varius etiam est tempus nec vitae orci sodales
-                            nec at diam in sed.
-                            </p>
-                        </div>
-                        <div className="more__btn">
-                            <Link to="/services-details">
-                            Read More <span className="icon-53" />{" "}
-                            <span className="icon-52" />
-                            </Link>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="slide-item">
-                <div className="inner__content__four">
-                    <div className="service__content__four">
-                        <div className="image_layer">
-                        <div
-                            className="image__hover__bg__one"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-50.png)"
-                            }}
-                        />
-                        <div
-                            className="image__hover__bg__two"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-51.png)"
-                            }}
-                        />
-                        </div>
-                        <div className="lower__content__four">
-                        <div className="icon__box p_ralative">
-                            <div
-                            className="icon__hover__bg__one"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-49.png)"
-                            }}
-                            />
-                            <div
-                            className="icon__hover__bg__two"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-48.png)"
-                            }}
-                            />
-                            <div className="icon__outer">
-                            <div className="icon__bg">
-                                <span className="icon-31" />
-                            </div>
-                            </div>
-                        </div>
-                        <div className="service__text">
-                            <h4>
-                            <Link to="/services-details">Siding Install</Link>
-                            </h4>
-                            <p>
-                            Suspendisse varius etiam est tempus nec vitae orci sodales
-                            nec at diam in sed.
-                            </p>
-                        </div>
-                        <div className="more__btn">
-                            <Link to="/services-details">
-                            Read More <span className="icon-53" />{" "}
-                            <span className="icon-52" />
-                            </Link>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="slide-item">
-                <div className="inner__content__four">
-                    <div className="service__content__four">
-                        <div className="image_layer">
-                        <div
-                            className="image__hover__bg__one"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-50.png)"
-                            }}
-                        />
-                        <div
-                            className="image__hover__bg__two"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-51.png)"
-                            }}
-                        />
-                        </div>
-                        <div className="lower__content__four">
-                        <div className="icon__box p_ralative">
-                            <div
-                            className="icon__hover__bg__one"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-49.png)"
-                            }}
-                            />
-                            <div
-                            className="icon__hover__bg__two"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-48.png)"
-                            }}
-                            />
-                            <div className="icon__outer">
-                            <div className="icon__bg">
-                                <span className="icon-27" />
-                            </div>
-                            </div>
-                        </div>
-                        <div className="service__text">
-                            <h4>
-                            <Link to="/services-details">Roofing Layer</Link>
-                            </h4>
-                            <p>
-                            Suspendisse varius etiam est tempus nec vitae orci sodales
-                            nec at diam in sed.
-                            </p>
-                        </div>
-                        <div className="more__btn">
-                            <Link to="/services-details">
-                            Read More <span className="icon-53" />{" "}
-                            <span className="icon-52" />
-                            </Link>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="slide-item">
-                <div className="inner__content__four">
-                    <div className="service__content__four">
-                        <div className="image_layer">
-                        <div
-                            className="image__hover__bg__one"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-50.png)"
-                            }}
-                        />
-                        <div
-                            className="image__hover__bg__two"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-51.png)"
-                            }}
-                        />
-                        </div>
-                        <div className="lower__content__four">
-                        <div className="icon__box p_ralative">
-                            <div
-                            className="icon__hover__bg__one"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-49.png)"
-                            }}
-                            />
-                            <div
-                            className="icon__hover__bg__two"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-48.png)"
-                            }}
-                            />
-                            <div className="icon__outer">
-                            <div className="icon__bg">
-                                <span className="icon-8" />
-                            </div>
-                            </div>
-                        </div>
-                        <div className="service__text">
-                            <h4>
-                            <Link to="/services-details">Damage Repair</Link>
-                            </h4>
-                            <p>
-                            Suspendisse varius etiam est tempus nec vitae orci sodales
-                            nec at diam in sed.
-                            </p>
-                        </div>
-                        <div className="more__btn">
-                            <Link to="/services-details">
-                            Read More <span className="icon-53" />{" "}
-                            <span className="icon-52" />
-                            </Link>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="slide-item">
-                <div className="inner__content__four">
-                    <div className="service__content__four">
-                        <div className="image_layer">
-                        <div
-                            className="image__hover__bg__one"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-50.png)"
-                            }}
-                        />
-                        <div
-                            className="image__hover__bg__two"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-51.png)"
-                            }}
-                        />
-                        </div>
-                        <div className="lower__content__four">
-                        <div className="icon__box p_ralative">
-                            <div
-                            className="icon__hover__bg__one"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-49.png)"
-                            }}
-                            />
-                            <div
-                            className="icon__hover__bg__two"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-48.png)"
-                            }}
-                            />
-                            <div className="icon__outer">
-                            <div className="icon__bg">
-                                <span className="icon-14" />
-                            </div>
-                            </div>
-                        </div>
-                        <div className="service__text">
-                            <h4>
-                            <Link to="/services-details">Roof Cornering</Link>
-                            </h4>
-                            <p>
-                            Suspendisse varius etiam est tempus nec vitae orci sodales
-                            nec at diam in sed.
-                            </p>
-                        </div>
-                        <div className="more__btn">
-                            <Link to="/services-details">
-                            Read More <span className="icon-53" />{" "}
-                            <span className="icon-52" />
-                            </Link>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="slide-item">
-                <div className="inner__content__four">
-                    <div className="service__content__four">
-                        <div className="image_layer">
-                        <div
-                            className="image__hover__bg__one"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-50.png)"
-                            }}
-                        />
-                        <div
-                            className="image__hover__bg__two"
-                            style={{
-                            backgroundImage: "url(assets/images/shape/shape-51.png)"
-                            }}
-                        />
-                        </div>
-                        <div className="lower__content__four">
-                        <div className="icon__box p_ralative">
-                            <div
-                            className="icon__hover__bg__one"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-49.png)"
-                            }}
-                            />
-                            <div
-                            className="icon__hover__bg__two"
-                            style={{
-                                backgroundImage: "url(assets/images/shape/shape-48.png)"
-                            }}
-                            />
-                            <div className="icon__outer">
-                            <div className="icon__bg">
-                                <span className="icon-31" />
-                            </div>
-                            </div>
-                        </div>
-                        <div className="service__text">
-                            <h4>
-                            <Link to="/services-details">Siding Install</Link>
-                            </h4>
-                            <p>
-                            Suspendisse varius etiam est tempus nec vitae orci sodales
-                            nec at diam in sed.
-                            </p>
-                        </div>
-                        <div className="more__btn">
-                            <Link to="/services-details">
-                            Read More <span className="icon-53" />{" "}
-                            <span className="icon-52" />
-                            </Link>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide> */}
+                </SwiperSlide>              
             </Swiper>
 
             <div className="owl-nav">
