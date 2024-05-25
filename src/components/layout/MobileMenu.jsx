@@ -34,7 +34,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 <nav className="menu-box">
                 <div className="nav-logo">
                     <Link to="/">
-                    <img src="assets/images/white-logo.png" alt="" title="" />
+                    <img src="assets/images/logo.jpeg" alt="" title="" />
                     </Link>
                 </div>
                     {/*menu-outer*/}
@@ -42,8 +42,8 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
                             
-                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link to="/" onClick={handleMobileMenu}>Home</Link>
-                                    <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
+                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link to="/" onClick={handleMobileMenu}>Inicio</Link>
+                                    {/* <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                                         <li><Link to="/" onClick={handleMobileMenu}>Home One</Link></li>
                                         <li><Link to="/index-2" onClick={handleMobileMenu}>Home Two</Link></li>
                                         <li><Link to="/index-3" onClick={handleMobileMenu}>Home Three</Link></li>
@@ -61,22 +61,22 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                         <div className={isActive.subMenuKey == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1, 2)}><span className="fa fa-angle-right" /></div>
                                     </li>
                                     </ul>
-                                    <div className={isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div>
+                                    <div className={isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div> */}
                                 </li>
                                 <li><Link to="/about/" onClick={handleMobileMenu}>About Us</Link></li>
 
-                                <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link to="/#" onClick={handleMobileMenu}>Services</Link>
-                                    <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
+                                <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link to="/#" onClick={handleMobileMenu}>Servicios</Link>
+                                    {/* <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                                         <li><Link to="/services" onClick={handleMobileMenu}>Services</Link></li>
                                         <li><Link to="/services-single" onClick={handleMobileMenu}>Services Single</Link></li>
                                         <li><Link to="/services-details" onClick={handleMobileMenu}>Services Details</Link></li>
                                     </ul>
 
-                                    <div className={isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
+                                    <div className={isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div> */}
                                 </li>
 
 
-                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}>
+                                {/* <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}>
                                     <Link to="/#" onClick={handleMobileMenu}>Pages</Link>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
                                         <li className={isActive.subMenuKey == 5 ? "dropdown current" : "dropdown"}>
@@ -120,11 +120,11 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                         <li><Link to="/error" onClick={handleMobileMenu}>Error</Link></li>
                                     </ul>
                                     <div className={isActive.key == 4 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(4)}><span className="fa fa-angle-right" /></div>
-                                </li>
+                                </li> */}
 
 
 
-                                <li className={isActive.key == 7 ? "dropdown current" : "dropdown"}>
+                                {/* <li className={isActive.key == 7 ? "dropdown current" : "dropdown"}>
                                     <Link to="/#" onClick={handleMobileMenu}>News</Link>
                                     <ul style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>
                                         <li><Link to="/blog-grid" onClick={handleMobileMenu}>Blog Grid</Link></li>
@@ -132,20 +132,20 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                         <li><Link to="/blog-details" onClick={handleMobileMenu}>Blog Details</Link></li>
                                     </ul>
                                     <div className={isActive.key == 7 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(7)}><span className="fa fa-angle-right" /></div>
-                                </li>
-                                <li><Link to="/contact" onClick={handleMobileMenu}>Contact</Link></li>
+                                </li> */}
+                                <li><Link to="/contact" onClick={handleMobileMenu}>Contactanos</Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="contact-info">
-                        <h4>Contact Info</h4>
+                        <h4>Informacón de Contacto</h4>
                         <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
+                        <li>Cal. Azalias Mza. Q Lote. 10 Apv. Sol de Santa Anita (Altura Capilla Inmaculada)</li>
                         <li>
-                            <Link to="tel:+8801682648101">+88 01682648101</Link>
+                            <Link to="tel:+8801682648101">+51 999 374 434</Link>
                         </li>
                         <li>
-                            <Link to="mailto:info@example.com">info@example.com</Link>
+                            <Link to="mailto:info@example.com">vegadiesel@example.com</Link>
                         </li>
                         </ul>
                     </div>
