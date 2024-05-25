@@ -5,7 +5,7 @@ import About from "@/components/sections/About";
 import ServiceFour from "@/components/sections/ServiceFour";
 import Brand from "@/components/sections/Brand";
 import Funfact  from "@/components/sections/Funfact";
-import { WhatsAppIcon } from "@/components/elements/WhastAppIcon";
+import { WhatsAppIcon } from "@/components/elements/whatsapp/WhastAppIcon";
 
 export const HomePage = () => {
     return (
