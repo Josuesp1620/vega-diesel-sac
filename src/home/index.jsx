@@ -20,7 +20,7 @@ export const HomePage = () => {
                 {/* <Faq /> */}
                 {/* <Team /> */}
                 <Brand />
-                <Funfact />
+                {/* <Funfact /> */}
                 {/* <Blog /> */}
                 {/* <News /> */}
                 <WhatsAppIcon />
