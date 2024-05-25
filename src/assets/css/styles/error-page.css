@@ -1,0 +1,42 @@
+/*** 
+
+====================================================================
+                        Error-Page-Css
+====================================================================
+
+***/
+
+.error__section .image__section {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  .error__section .text__section h3 {
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 20px;
+  }
+  .error__section .text__section p {
+    font-size: 18px;
+    padding-bottom: 70px;
+  }
+  .error__section .text__section .error__btn a {
+    padding: 15px 30px 15px 56px;
+    background: var(--theme-color);
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-weight: 600;
+    position: relative;
+  }
+  .error__section .text__section .error__btn a:hover {
+    color: var(--white-color) !important;
+  }
+  .error__section .text__section .error__btn a span {
+    color: var(--white-color);
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    font-weight: 100;
+    transform: rotateY(-180deg);
+  }
+  
+  

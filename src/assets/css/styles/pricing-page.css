@@ -1,0 +1,180 @@
+
+/*** 
+
+====================================================================
+                       Pricing-Table-Page
+====================================================================
+
+***/
+
+.pricing-one .tab-btn-box .tab-btns:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 40px;
+    width: 70px;
+    content: "";
+    border-radius: 20px;
+    background: #f7f7f7;
+    border: 1px solid var(--higer-secondary-color);
+  }
+  .pricing-one .tab-btn-box .tab-btns li{
+    position: relative;
+    display: inline-block;
+    min-width: 160px;
+    text-align: right;
+    font-size: 18px;
+    padding: 10px 50px 10px 0px;
+    line-height: 20px;
+    color: var(--primary-color);
+    font-family: var(--inter);
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 500ms ease;
+  }
+  .pricing-one .tab-btn-box .tab-btns li:last-child{
+    padding-right: 0;
+    padding-left: 50px;
+    text-align: left;
+  }
+  .pricing-one .tab-btn-box .tab-btns li.active-btn:before {
+    right: -5px;
+  }
+  .pricing-one.pricing-page-1 .tab-btn-box .tab-btns li:before {
+    background: var(--theme-color);
+  }
+  .pricing-one .tab-btn-box .tab-btns li:before {
+    position: absolute;
+    top: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    content: "";
+    right: -30px;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+  .pricing-one .tab-btn-box .tab-btns li:last-child:before{
+    display: none;
+  }
+  .pricing-one .tabs-box .tab{
+    position:relative;
+    display:none;
+    transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -webkit-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+  }
+  .pricing-one .tabs-box .tab.active-tab{
+    display:block;  
+  }
+  .pricing-one .tabs-box .tab{
+    transform:scale(0.9,0.9) translateY(0px);
+  }
+  .pricing-one .tabs-box .tab.active-tab{
+    transform:scale(1) translateY(0px);
+  }
+  .pricing-one .tab-btn-box {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .pricing-one .price__content {
+    background: var(--white-color);
+    box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 70px 0px 40px;
+    margin-bottom: 30px;
+  }
+  .pricing-one .price__content .image_layer.shape-06 {
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    background-size: cover;
+    bottom: -30px;
+    background-repeat: no-repeat;
+  }
+  .pricing-one .price__content .image_layer.shape-55 {
+    width: 200px;
+    height: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 40px;
+  }
+  .pricing-one .price__text h6 {
+    text-transform: uppercase;
+    color: var(--theme-color);
+  }
+  .pricing-one .price__text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 15px 0px;
+  }
+  .pricing-one .price__text p {
+    font-size: 18px;
+    color: var(--base-color);
+    padding-bottom: 90px;
+  }
+  .pricing-one .price__content .price__list li {
+    color: var(--primary-color);
+    padding-bottom: 15px;
+    font-weight: 500;
+  }
+  .pricing-one .price__content .price__list li span {
+    margin-right: 10px;
+  }
+  .pricing-one .price__content .price__list li:nth-child(4) {
+    color: var(--base-color);
+  }
+  .pricing-one .price__content .price__list li:nth-child(5) {
+    color: var(--base-color);
+    padding-bottom: 0px;
+  }
+  .pricing-one .price__content .price__list li:nth-child(5) span {
+    color: var(--base-color);
+  }
+  .pricing-one .price__content .price__list li:nth-child(4) span {
+    color: var(--base-color);
+  }
+  .pricing-one .price__content .price__btn a {
+    padding: 20px 30px;
+    position: relative;
+    display: inline-block;
+    background: var(--white-color);
+    border: 1px solid var(--higer-secondary-color);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 500ms ease;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .pricing-one .price__content .price__list {
+    margin-bottom: 40px;
+  }
+  .pricing-one .price__content .price__btn a:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    transform: scale(0.0);
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+    background-color: var(--theme-color);
+    z-index: -1;
+  }
+  .pricing-one .price__content .price__btn a:hover:before {
+    transform: scaleX(1.0);
+  }
+  .pricing-one .price__content .price__btn a:hover{
+    color: var(--white-color) !important;
+  }
+  

@@ -1,0 +1,439 @@
+
+
+
+/*** 
+=============================================
+    Checkout Area Css
+=============================================
+***/
+.checkout-area{
+    position: relative;
+    display: block;
+    background: var(--white-color);
+  }
+  .checkout-area .returning-customer {
+    position: relative;
+    display: block;
+    background: #f8f5ee;
+    padding: 26px 30px 26px;
+    margin-bottom: 30px;
+  }
+  .checkout-area .returning-customer h5{
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--secondary-font-2);
+  }
+  .checkout-area .returning-customer h5 a{
+    color: var(--thm-base);
+    font-weight: 400;
+    display: inline-block;
+    padding-left: 15px;
+    font-family: var(--roboto);
+  }
+  
+  
+  .checkout-area .coupon {
+    position: relative;
+    display: flex;
+    background: var(--white-color);
+    padding: 20px 35px;
+    margin-bottom: 70px;
+    border: 1px solid var(--higer-secondary-color);
+    align-items: center;
+    justify-content: space-between;
+  }
+  .checkout-area .coupon h5 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .checkout-area .coupon h5 a {
+    color: var(--theme-color);
+    font-weight: 500;
+    display: inline-block;
+  }
+  .checkout-area .coupon .remove {
+    transform: rotate(45deg);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .checkout-area .coupon .remove span {
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--primary-color);
+  }
+  
+  .checkout-area .form .title {
+    position: relative;
+    display: block;
+  }
+  .checkout-area .form .title h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+  }
+  
+  .checkout-area .form form .field-label {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 10px;
+    text-transform: capitalize;
+  }
+  .checkout-area .form form .field-input input[type="text"], 
+  .checkout-area .form form .field-input input[type="email"],
+  .checkout-area .form form .field-input input[type="tel"]{
+    position: relative;
+    display: block;
+    border: 1px solid var(--higer-secondary-color);
+    color: #252628;
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    padding: 0 25px;
+    margin-bottom: 20px;
+    font-family: var(--roboto);
+    transition: all 500ms ease;
+  }
+  .checkout-area .form form .field-input input[type="text"]:focus{
+    border-color: #1d1d1d;
+  }
+  .checkout-area .form form .field-input textarea {
+    position: relative;
+    display: block;
+    border: 1px solid var(--higer-secondary-color);
+    color: var(--base-color);
+    font-size: 15px;
+    width: 100%;
+    height: 135px;
+    padding: 10px 25px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+  }
+  .checkout-area .form form .field-input textarea:focus{
+    border-color: #1d1d1d;
+  }
+  
+  
+  .checkout-area .form form .field-input .nice-select span{
+    color: var(--base-color);
+  }
+  .checkout-area .form form .field-input .nice-select {
+    position: relative;
+    background-color: var(--white-color);
+    border-radius: 0px;
+    border: solid 1px var(--higer-secondary-color);
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 47px;
+    outline: none;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  select.wide {
+    position: relative;
+    display: block;
+    border: 1px solid var(--higer-secondary-color);
+    color: #252628;
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    padding: 0 25px;
+    font-family: var(--roboto);
+    transition: all 500ms ease;
+  }
+  
+  
+  
+  .checkout-area .create-acc{
+    position: relative;
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 55px;
+  }
+  .checkout-area .create-acc .checkbox {
+    position: relative;
+    display: block;
+  }
+  .checkout-area .create-acc .checkbox label {
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+  }
+  .checkout-area .create-acc .checkbox label span{
+    color: var(--primary-color);
+  }
+  .checkout-area .create-acc .checkbox input {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+  }
+  .checkout-area .shipping-info input[type="checkbox"] {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0 0 20px;
+    position: relative;
+    top: 0px;
+    vertical-align: middle;
+  }
+  
+  
+  .order-info{
+    position: relative;
+    display: block;
+  }
+  
+  .order-info-table-box .table-outer {
+    position: relative;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .order-info-table-box .order-table {
+    min-width: 550px;
+    width: 100%;
+  }
+  .order-info-table-box .order-table .order-header {
+    position: relative;
+    width: 100%;
+    background: var(--white-color);
+  }
+  .order-info-table-box .order-table tbody {
+    position: relative;
+  }
+  .order-info-table-box .order-table thead tr {
+    border-bottom: 1px solid var(--higer-secondary-color);    
+  }
+  .order-info-table-box .order-table thead tr th {
+    color: var(--primary-color);
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    text-transform: capitalize;
+    min-width: 160px;
+    padding: 15px 30px;
+    border: 0px solid #ededed;
+    font-family: var(--roboto);
+  }
+  .order-info-table-box .order-table thead tr th:last-child {
+    text-align: end;
+  }
+  .order-info-table-box .order-table tbody tr {
+    border-bottom: 1px solid var(--higer-secondary-color);
+  }
+  
+  
+  .order-info-table-box .order-table tbody tr td {
+    min-width: 160px;
+    padding: 20px 30px;
+    border: 0px solid #ededed;
+  }
+  .order-info-table-box .order-table thead tr th.prod-column {
+    position: relative;
+  }
+  .order-info-table-box .order-table tbody tr .prod-column .column-box {
+    position: relative;
+    min-height: 80px;
+  }
+  .order-info-table-box .order-table tbody tr .prod-column .column-box .prod-thumb {
+    width: 82px;
+    height: 82px;
+    background: var(--white-color);
+    border: 1px solid var(--higer-secondary-color);
+    padding: 10px;
+  }
+  .order-info-table-box .order-table tbody tr .prod-column .column-box .prod-thumb a {
+    position: relative;
+    display: block;
+    border-radius: 10px;
+  }
+  .order-info-table-box .order-table tbody tr .prod-column .column-box .prod-thumb a img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .order-info-table-box .order-table tbody tr .prod-column .column-box .prod-thumb, 
+  .order-info-table-box .order-table tbody tr .prod-column .column-box .inner-title{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .order-info-table-box .order-table tbody tr .prod-column .column-box .inner-title {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .order-info-table-box .order-table tbody tr .prod-column .column-box .inner-title h3 {
+    color: var(--primary-color);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .order-info-table-box .order-table tbody tr .prod-column .column-box .inner-title h3 span:before {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    transform: rotate(45deg);
+    top: 2px;
+    font-size: 14px;
+  }
+  
+  .order-info-table-box .order-table tbody tr .total {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--roboto);
+    text-align: end;
+  }
+  
+  .order-info-table-box .order-table tbody tr .inner-title2{
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 10px;
+  }
+  .order-info-table-box .order-table tbody tr .value{
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--roboto);
+    text-align: end;
+  }
+  .order-info-table-box .order-table tbody tr .value2{
+    color: var(--theme-color);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--roboto);
+    text-align: end;
+  }
+  
+  .payment-options {
+    position: relative;
+    display: block;
+    margin-top: 70px;
+  }
+  .payment-options .title {
+    margin-bottom: 0px !important;
+  }
+  
+  .payment-options .inner{
+    position: relative;
+    display: block;
+    padding: 30px 30px 40px;
+    border: 1px solid #f8f5ee;
+  }
+  .payment-options .option-block {
+    margin-bottom: 14px
+  }
+  .payment-options .option-block .checkbox {
+    margin: 0 0 5px;
+  }
+  .payment-options .option-block .checkbox label {
+    display: block;
+    font-weight: 500;
+    min-height: 20px;
+    padding-left: 0px;
+    margin: 0;
+  }
+  .payment-options .option-block .checkbox label input {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .payment-options .option-block .checkbox label span {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 30px;
+    font-family: var(--roboto);
+    cursor: pointer;
+  }
+  .payment-options .option-block .checkbox label span b {
+    color: var(--primary-color);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 25px;
+  }
+  .payment-options .option-block .text{
+    padding: 10px 0px 10px 30px;
+  }
+  .payment-options .option-block .text p {
+    margin: 0;
+    line-height: 28px;
+  }
+  .placeorder-button button {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .placeorder-button.text-left {
+    display: inline-block;
+  }
+  
+  /** checkbox **/
+  
+  .checkbox input {
+    display: none;
+  }
+  .checkbox{
+    margin-bottom: 9px;
+  }
+  .checkbox:last-child{
+    margin-bottom: 0px;
+  }
+  .checkbox span {
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141417;
+    padding-left: 45px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 0px;
+    transition: all 500ms ease;
+  }
+  .checkbox input:checked + span{
+    color: #1e2c36;
+  }
+  .checkbox span:before{
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 3px;
+    width: 16px;
+    height: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dedede;
+  }
+  .checkbox span:after {
+    position: absolute;
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 9px;
+    left: 0px;
+    top: 3px;
+    width: 16px;
+    height: 16px;
+    line-height: 10px;
+    color: var(--white-color);
+    padding-top: 5px;
+    opacity: 0;
+    font-weight: 400;
+    text-align: center;
+  }
+  .checkbox input:checked + span:after {
+    opacity: 1;
+    background: var(--theme-color);
+  }
+  

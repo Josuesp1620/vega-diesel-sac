@@ -1,0 +1,75 @@
+
+/*** 
+
+====================================================================
+                        Home-Page-Four
+====================================================================
+
+***/
+
+
+
+/* choose__four */
+.choose__four__right img {
+  max-width: none;
+  margin-top: -96px;
+  z-index: 11;
+  position: relative;
+}
+.choose__two.four .choose__two__left {
+  padding: 138px 0px;
+}
+.choose__two.four {
+  background: #F2F2F2;
+  padding-bottom: 0;
+}
+.choose__two.four .icon.icons-02 {
+  width: 715px;
+  height: 342px;
+  left: -100px;
+  bottom: 0;
+}
+
+/* choose__four end */
+
+
+/* faq-need-section */
+
+.faq__right__four {
+  margin-right: 30px;
+  margin-top: -150px;
+}
+.faq__need .help__left {
+  padding: 40px;
+  background: var(--theme-color);
+}
+.faq__need .help__left .help__two h2 {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+.faq__need .help__left .help__two span {
+  font-size: 20px;
+}
+.faq__need {
+  margin-top: 15px;
+}
+.faq__section.four {
+  background: #F2F2F2;
+}
+.faq__need .help__left .help__one span {
+  font-size: 40px;
+}
+.faq__need .help__left .help__one:after {
+  background: #F56F6F;
+}
+.faq__need .help__left .help__two a:hover{
+  color: var(--white-color) !important;
+}
+.faq__need .help__left .help__one {
+  background: #F56F6F;
+}
+.faq__section.four .faq__right__section {
+  margin-top: -13px;
+}
+
+/* faq-need-section end */

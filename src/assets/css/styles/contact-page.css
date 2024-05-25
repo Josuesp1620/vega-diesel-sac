@@ -1,0 +1,84 @@
+
+
+
+/*** 
+
+====================================================================
+                        Contact-Page-Css
+====================================================================
+
+***/
+
+
+.contact__left .main__title h2 {
+    font-size: 40px;
+    padding: 10px 0px 20px;
+  }
+  .contact__left .normal__text p {
+    padding-bottom: 30px;
+  }
+  .contact__left .contact__info__block {
+    position: relative;
+    padding-bottom: 25px;
+    padding-left: 100px;
+  }
+  .contact__left .contact__info__block .left__site__info {
+    width: 70px;
+    height: 70px;
+    background: var(--theme-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .contact__left .contact__info__block .left__site__info span {
+    position: relative;
+    color: var(--white-color);
+    font-size: 34px;
+  }
+  .contact__left .contact__info__block .right__site__info a {
+    padding: 5px 0px;
+    display: inline-block;
+    color: var(--base-color);
+  }
+  .right__site__info.one h4 {
+    padding-bottom: 10px;
+  }
+  .contact__page .contact__right {
+    background: #F2F2F2;
+    padding: 70px;
+  }
+  .contact__page .contact__right .contact___title span {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 30px;
+  }
+  .contact__page .contact__right .contact___title h3 {
+    padding: 20px 0px 30px;
+  }
+  .contact__page .contact__right input {
+    width: 100%;
+    background: var(--white-color);
+    color: var(--base-color);
+    padding: 15px 20px;
+  }
+  .contact__page .contact__right .form-group {
+    margin-bottom: 30px;
+  }
+  .contact__page .contact__right textarea {
+    width: 100%;
+    background: var(--white-color);
+    color: var(--base-color);
+    height: 150px;
+    padding: 15px 20px;
+  }
+  
+  section.google__map {
+    margin-bottom: -4px;
+  }
+  
