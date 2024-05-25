@@ -1,0 +1,116 @@
+
+  
+  /* About Section */
+  .about_left__section .expericence {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+  }
+  .about_left__section .expericence span {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 0px;
+    color: var(--primary-color);
+  }
+  .about_left__section .expericence h2 {
+    line-height: 24px;
+    margin-bottom: 22px;
+    text-align: center;
+    color: var(--theme-color);
+  }
+  .about_left__section .expericence__text{
+    padding: 0px 42px;
+    text-align: center;
+  }
+  .engineer__section h5 {
+    padding-bottom: 14px;
+  }
+  .engineer__content .engineer__icon span{
+    font-size: 26px;
+  }
+  .engineer__content .engineer__icon {
+    margin-right: 21px;
+    margin-top: 4px;
+  }
+  .about__right__section .engineer__content {
+    display: flex;
+  }
+  .about__right__section .normal__text {
+    padding-bottom: 34px;
+  }
+  .about__right__section .about__btn {
+    padding-top: 30px;
+    display: inline-block;
+  }
+  .parallax-scene-1 .icon.layer-bg {
+    left: 240px !important;
+    top: -75px !important;
+    width: 180px;
+    height: 180px;
+  }
+  .parallax-scene-2 .icon.layer-bg {
+    left: 44% !important;
+    top: 208px !important;
+    width: 180px;
+    height: 180px;
+  }
+  .about__section .icon.icon-02 {
+    width: 253px;
+    height: 552px;
+    right: 0px;
+    top: -315px;
+  }
+  .about__section .icon.icon-03 {
+    width: 276px;
+    height: 395px;
+    left: 0px;
+    top: -260px;
+  }
+  /* About Section end*/
+  
+/* about-section-four */
+.about__section.four .about__two__expericence {
+    left: inherit;
+    right: -80px;
+    bottom: -48px;
+    z-index: 1;
+  }
+  .about__section.four .about__three__left {
+    padding: 0px 0px;
+  }
+  .engineer__section__top {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .engineer__section__top .engineer__section__right {
+    padding-left: 30px;
+  }
+  .engineer__section__left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .about__section.four .icon.layer-bg {
+    top: 44px !important;
+    left: 37% !important;
+  }
+  .about__section.four .icon.icons-1 {
+    width: 374px;
+    height: 338px;
+    top: 0;
+    left: -100px;
+  }
+  .about__section.four .icon.icons-2 {
+    width: 398px;
+    height: 444px;
+    right: 0;
+    bottom: 0;
+  }
+  /* about-section-four end */
