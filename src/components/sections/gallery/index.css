@@ -1,0 +1,100 @@
+
+
+  /* Portfolio Section*/
+  .portfolio {
+    margin: 30px 30px 0px;
+  }
+  .portfolio__block__one .inner-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+  }
+  .portfolio__block__one .inner-box img {
+    max-width: 100%;
+    width: 100%;
+    vertical-align: top;
+  }
+  .portfolio__block__one .inner-box * {
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  .portfolio__block__one .inner-box:hover .lower__content .view-btn{
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+  .portfolio__block__one .inner-box:hover .lower__content .portfolio__block{
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+  .portfolio__block__one .inner-box .lower__content .view-btn{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .portfolio__block__one .inner-box .lower__content .portfolio__block{
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+  }
+  .portfolio__block__one .lower__content .portfolio__block span{
+    font-family: var(--roboto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: var(--theme-color);
+  }
+  .portfolio__block__one .inner-box .lower__content .view-btn span{
+    color: var(--white-color);
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  .portfolio__block__one .lower__content .portfolio__block a{
+    color: var(--white-color);
+    font-family: var(--roboto);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .portfolio__block__one .inner-box:hover:after{
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+    transform: rotate3d(0, 0, 0, 0deg);
+    opacity: 0.6;
+  }
+  .portfolio__block__one .inner-box:after {
+    background-color: var(--primary-color);
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform: rotate3d(1, -1, 0, 100deg);
+    transform: rotate3d(1, -1, 0, 100deg);
+    opacity: 0;
+  }
+  .portfolio .owl-dots {
+    display: none;
+  }
+  
+  /* Portfolio Section end*/
+  
