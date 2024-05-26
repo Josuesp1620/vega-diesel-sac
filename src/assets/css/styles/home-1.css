@@ -2080,7 +2080,7 @@
     right: 0;
     bottom: 8px;
   }
-  .testimonials__middle:before {
+  /* .testimonials__middle:before {
     content: "";
     position: absolute;
     background: var(--theme-color);
@@ -2089,7 +2089,7 @@
     bottom: 9px;
     left: 1px;
     z-index: 1;
-  }
+  } */
   .testimonials__block__one .quote span {
     font-size: 40px;
     opacity: 0.2;
