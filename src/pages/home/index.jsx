@@ -6,9 +6,10 @@ import RequestService from "./components/request_services";
 import About from "./components/about";
 import Services from "./components/services";
 import ContactHelp from "./components/contact_help";
-import HomeSlider from "./components/slider";
-import Agreements from "./agreements";
+import HomeSlider from "../../components/layout/slider";
+import Agreements from "./components/agreements";
 import Brand from "./components/brand";
+import { ContactComponent } from "../contact/components/contact";
 
 
 export const HomePage = () => {
@@ -21,17 +22,9 @@ export const HomePage = () => {
                 <Services />
                 <ContactHelp />
                 <HomeSlider />
-                {/* <Choose /> */}
-                {/* <Testimonial /> */}
-                {/* <Faq /> */}
-                {/* <Team /> */}                
                 <Agreements />
                 <Brand />
-                {/* <HomeSlider /> */}
-
-                {/* <Features /> */}
-                {/* <Blog /> */}
-                {/* <News /> */}
+                <ContactComponent />
                 <WhatsAppIcon />
             </Layout>
         </>

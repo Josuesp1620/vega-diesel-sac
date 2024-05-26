@@ -8,8 +8,8 @@ export default function Menu() {
                 <li className="dropdown">
                     <Link to="/">Inicio</Link>
                 </li>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li className="dropdown"><a href="/#services">Servicios</a>
+                <li><Link to="/about">Sobre Nosotros</Link></li>
+                <li className="dropdown"><Link to="/services">Servicios</Link>
                 </li>                                        
                 <li><Link to="/gallery"> Galeria </Link></li>
                 <li><Link to="/contact"> Contacto </Link></li>     
