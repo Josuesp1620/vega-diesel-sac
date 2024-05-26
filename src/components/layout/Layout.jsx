@@ -1,10 +1,7 @@
 
 import { useState } from "react"
-import BackToTop from '../elements/BackToTop'
-import DataBg from '../elements/DataBg'
 import Breadcrumb from './breadcrumb'
 import SearchPopup from './search'
-import Sidebar from './Sidebar'
 import Footer2 from './footer'
 import Header4 from './header'
 import 'swiper/css'
@@ -32,7 +29,6 @@ export default function Layout({ breadcrumbTitle, children, wrapperCls }) {
                 <Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} />
 
 
-                {/* <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} /> */}
                 <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
 
                 {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
@@ -41,7 +37,6 @@ export default function Layout({ breadcrumbTitle, children, wrapperCls }) {
 
                 <Footer2 />
             </div>
-            {/* <BackToTop scroll={scroll} /> */}
         </>
     )
 }
