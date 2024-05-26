@@ -46,10 +46,11 @@ export default function GalleryFilter() {
 
             <div className="filters">
                 <ul className="filter-tabs filter-btns clearfix">
-                    <li className={activeBtn("*")} onClick={handleFilterKeyChange("*")}>All Works </li>
-                    <li className={activeBtn("cat-1")} onClick={handleFilterKeyChange("cat-1")}>Business </li>
-                    <li className={activeBtn("cat-2")} onClick={handleFilterKeyChange("cat-2")}>Corporate </li>
-                    <li className={activeBtn("cat-3")} onClick={handleFilterKeyChange("cat-3")}>Marketing </li>
+                    <li className={activeBtn("*")} onClick={handleFilterKeyChange("*")}>Todos</li>
+                    <li className={activeBtn("cat-1")} onClick={handleFilterKeyChange("cat-1")}>Proyectos </li>
+                    <li className={activeBtn("cat-2")} onClick={handleFilterKeyChange("cat-2")}>Alquiler </li>
+                    <li className={activeBtn("cat-3")} onClick={handleFilterKeyChange("cat-3")}>Mantenimiento </li>
+                    <li className={activeBtn("cat-4")} onClick={handleFilterKeyChange("cat-4")}>Reparación </li>
                 </ul>
             </div>
 
