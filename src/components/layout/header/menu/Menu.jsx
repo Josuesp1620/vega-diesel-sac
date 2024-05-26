@@ -11,6 +11,7 @@ export default function Menu() {
                 <li><Link to="/about">Sobre Nosotros</Link></li>
                 <li className="dropdown"><Link to="#">Servicios</Link>
                 </li>                                        
+                <li><Link to="/gallery"> Galeria </Link></li>
                 <li><Link to="/contact"> Contacto </Link></li>     
             </ul>
         </>

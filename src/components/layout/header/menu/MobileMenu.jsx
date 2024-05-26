@@ -1,28 +1,7 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
-  const [isActive, setIsActive] = useState({
-    status: false,
-    key: "",
-    subMenuKey: "",
-  });
 
-  const handleToggle = (key, subMenuKey = "") => {
-    if (isActive.key === key && isActive.subMenuKey === subMenuKey) {
-      setIsActive({
-        status: false,
-        key: "",
-        subMenuKey: "",
-      });
-    } else {
-      setIsActive({
-        status: true,
-        key,
-        subMenuKey,
-      });
-    }
-  };
     return (
         <>
 
@@ -42,17 +21,22 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
                             
-                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
+                                <li>
                                     <Link to="/" onClick={handleMobileMenu}>Inicio</Link>                                   
                                 </li>
                                 <li>
                                     <Link to="/about/" onClick={handleMobileMenu}>Sobre Nosotros</Link>
                                 </li>
 
-                                <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}>
+                                <li>
                                     <Link to="/#" onClick={handleMobileMenu}>Servicios</Link>                                   
                                 </li>
-                                <li><Link to="/contact" onClick={handleMobileMenu}>Contactanos</Link></li>
+                                <li>
+                                    <Link to="/gallery" onClick={handleMobileMenu}>Galeria</Link>
+                                </li>
+                                <li>
+                                    <Link to="/contact" onClick={handleMobileMenu}>Contactanos</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
