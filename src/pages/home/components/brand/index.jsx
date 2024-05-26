@@ -1,5 +1,5 @@
+import BrandSlider from './BrandSlider'
 import './index.css'
-import BrandSlider1 from "../../slider/BrandSlider1";
 
 export default function Brand() {
     return (
@@ -9,7 +9,7 @@ export default function Brand() {
             <div className="auto_container">
             <div className="barnd___content">
                 <div className="medium-container">
-                    <BrandSlider1/>
+                    <BrandSlider/>
                 </div>
             </div>
             </div>

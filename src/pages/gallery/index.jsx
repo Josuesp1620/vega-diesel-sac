@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout"
-import GalleryFilter from "@/components/sections/gallery"
+import GalleryFilter from "@/pages/gallery/components/gallery"
 
 export const GalleryPage = () => {
     return (

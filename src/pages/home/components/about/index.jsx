@@ -64,7 +64,7 @@ export default function About() {
                         <div className="main__title">
                         <h2>
                             Somos Especialistas <br />
-                            en Grupos Electrogenos  <br />
+                            En Grupos Electrógenos  <br />
                             Experiencia y Calidad. <br />
                         </h2>
                         </div>
@@ -74,23 +74,9 @@ export default function About() {
                         <p>
                         ¡Bienvenido a nuestra página web! Somos Vega Diesel SAC, una empresa peruana con amplia experiencia en el rubro de los grupos electrógenos. Con la ayuda de profesionales comprometidos, hemos logrado aumentar nuestra participación en el mercado, comenzando con pequeños servicios técnicos.
                         </p>
-                        {/* <br />
-                        <p>
-                        Actualmente, tenemos una presencia significativa en el mercado, ofreciendo servicios de mantenimiento y asistencia técnica para grupos electrógenos. Gracias a nuestro empeño, coraje, y dedicación en el servicio y post-servicio, seguimos ampliando nuestra participación en el mercado y continuaremos esforzándonos al máximo para brindar la mejor asistencia técnica.
-                        </p> */}
                     </div>
                     <div className="engineer__section">
                         <div className="engineer__section__top">
-                        <div className="engineer__section__left">
-                            <div className="engineer__content__img">
-                            <figure className="image">
-                                <img
-                                src="assets/images/resource/about-four-02.png"
-                                alt=""
-                                />
-                            </figure>
-                            </div>
-                        </div>
                         <div className="engineer__section__right">
                             <div className="engineer__content">
                             <div className="engineer__content__list">

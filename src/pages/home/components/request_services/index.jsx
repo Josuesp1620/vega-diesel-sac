@@ -1,6 +1,6 @@
 import './index.css'
 
-export default function Services() {
+export default function RequestService() {
     return (
         <>
         {/* service-from */}
@@ -8,7 +8,7 @@ export default function Services() {
             <div className="auto_container">
             <div className="from__one">
                 <div className="from__left">
-                <h3>Solicitar de un servicio</h3>
+                <h3>Solicitar servicio</h3>
                 </div>
                 <div className="from__logo">
                 <figure className="image">

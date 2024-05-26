@@ -1,7 +1,8 @@
-import './index.css'
-import TestimonialSlider3 from "../../slider/TestimonialSlider3";
 
-export default function ServiceFour() {
+import './index.css'
+import CardSlider from './CardSlider'
+
+export default function Services() {
     return (
         <>
         {/* our-service-four */}
@@ -15,7 +16,7 @@ export default function ServiceFour() {
             <div className="auto_container">
                 <div className="title text-center">
                 <div className="sub__title">
-                    <h6>Nuestros servicios</h6>
+                    <h6 className='text-white'>Nuestros servicios</h6>
                 </div>
                 <div className="main__title">
                     <h2>
@@ -24,7 +25,7 @@ export default function ServiceFour() {
                 </div>
                 </div>
                 <div className="service__four__slider">
-                    <TestimonialSlider3/>
+                    <CardSlider />
                 </div>
             </div>
             </div>

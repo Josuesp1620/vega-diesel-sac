@@ -1,27 +1,35 @@
 import Layout from "@/components/layout/Layout";
-import Services from "@/components/sections/services";
-import Banner from "@/components/sections/banner";
-import About from "@/components/sections/about";
-import ServiceFour from "@/components/sections/service_four";
-import Brand from "@/components/sections/brand";
-import Funfact  from "@/components/sections/funfact";
+
 import { WhatsAppIcon } from "@/components/elements/whatsapp/WhastAppIcon";
-import Gallery from "@/components/sections/gallery";
+import Banner from "./components/banner";
+import RequestService from "./components/request_services";
+import About from "./components/about";
+import Services from "./components/services";
+import ContactHelp from "./components/contact_help";
+import HomeSlider from "./components/slider";
+import Agreements from "./agreements";
+import Brand from "./components/brand";
+
 
 export const HomePage = () => {
     return (
         <>
             <Layout>
                 <Banner />
-                <Services />
+                <RequestService />
                 <About />
-                <ServiceFour />
+                <Services />
+                <ContactHelp />
+                <HomeSlider />
                 {/* <Choose /> */}
                 {/* <Testimonial /> */}
                 {/* <Faq /> */}
-                {/* <Team /> */}
+                {/* <Team /> */}                
+                <Agreements />
                 <Brand />
-                {/* <Funfact /> */}
+                {/* <HomeSlider /> */}
+
+                {/* <Features /> */}
                 {/* <Blog /> */}
                 {/* <News /> */}
                 <WhatsAppIcon />
