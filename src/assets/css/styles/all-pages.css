@@ -796,7 +796,7 @@
   /* project-style-1 */
   .portfolio.style__one .filters ul li.active {
     background: var(--theme-color);
-    color: var(--white-color);
+    color: black;
   }
   .portfolio.style__one .filters ul li {
     display: inline-block;

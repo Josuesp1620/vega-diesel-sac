@@ -34,7 +34,7 @@ export default function About() {
                         <div className="image__box">
                             <figure className="image">
                             <img
-                                src="assets/images/resource/about-four-01.png"
+                                src="public/assets/images/home/services/servicio-4-home.jpeg"
                                 alt=""
                             />
                             </figure>

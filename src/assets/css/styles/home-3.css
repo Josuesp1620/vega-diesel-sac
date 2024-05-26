@@ -375,7 +375,7 @@
   }
   .funfact__section.three .inner_box .icon__image span {
     font-size: 72px;
-    color: var(--white-color);
+    color: black;
   }
   .funfact__section.three .inner_box .count-outer span {
     font-family: var(--roboto);
@@ -383,14 +383,14 @@
     font-weight: 800;
     font-size: 50px;
     line-height: 50px;
-    color: var(--white-color);
+    color: black;
   }
   .funfact__section.three .inner_box .icon__image {
     padding-bottom: 30px;
   }
   .funfact__section.three .inner_box .funfact__text p {
     font-size: 18px;
-    color: var(--white-color);
+    color: black;
     font-weight: 500;
     padding-top: 10px;
   }

@@ -22,7 +22,7 @@ export const HomePage = () => {
                 <Services />
                 <ContactHelp />
                 <HomeSlider />
-                <Agreements />
+                {/* <Agreements /> */}
                 <Brand />
                 <ContactComponent />
                 <WhatsAppIcon />
