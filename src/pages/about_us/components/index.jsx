@@ -113,12 +113,12 @@ export default function AboutUsComponent() {
                             <div
                                 className="about__two__expericence"
                                 style={{
-                                backgroundImage: "url(assets/images/shape/shape-42.png)"
+                                    background: '#fff'
                                 }}
                             >
                                 <div className="about__two__text">
-                                <h2>20 </h2>
-                                <span>Years of Expericence</span>
+                                <h2>+5 </h2>
+                                <span>Años de Experiencia</span>
                                 </div>
                             </div>
                             </div>
