@@ -110,10 +110,10 @@ export default function Footer2() {
                         <div className="widget_content">
                             <ul className="links_list clearfix">
                             <li>
-                                <Link to="/about">Sobre Nosotros</Link>
+                                <a href="/about">Sobre Nosotros</a>
                             </li>
                             <li>
-                                <Link to="/service">Servicios</Link>
+                                <a href="/services">Servicios</a>
                             </li>
                             {/* <li>
                                 <Link to="/">Case</Link>
@@ -122,7 +122,7 @@ export default function Footer2() {
                                 <Link to="/">Roof Repair</Link>
                             </li> */}
                             <li>
-                                <Link to="/">Contáctanos</Link>
+                                <a href="/contact">Contáctanos</a>
                             </li>
                             </ul>
                         </div>
