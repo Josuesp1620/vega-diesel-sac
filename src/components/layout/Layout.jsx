@@ -30,8 +30,6 @@ export default function Layout({ children, wrapperCls }) {
             live: false
         })
 
-        console.log(wow_instance.init())
-
         document.addEventListener("scroll", () => {
             const scrollCheck = window.scrollY > 100
             if (scrollCheck !== scroll) {
