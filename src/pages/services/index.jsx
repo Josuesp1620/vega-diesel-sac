@@ -5,7 +5,7 @@ import { ContactComponent } from "../contact/components/contact";
 
 export const ServicesPage = () => {
     return (
-        <Layout breadcrumbTitle={"Servicios"}>
+        <Layout>
             <Services />
             <HomeSlider />
             <HomeSlider />

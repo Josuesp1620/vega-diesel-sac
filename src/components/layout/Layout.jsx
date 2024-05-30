@@ -6,7 +6,7 @@ import Footer2 from './footer'
 import Header4 from './header'
 import 'swiper/css'
 
-export default function Layout({ breadcrumbTitle, children, wrapperCls }) {
+export default function Layout({ children, wrapperCls }) {
     const [scroll, setScroll] = useState(0)
     // Mobile Menu
     const [isMobileMenu, setMobileMenu] = useState(false)
@@ -29,9 +29,7 @@ export default function Layout({ breadcrumbTitle, children, wrapperCls }) {
                 <Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} />
 
 
-                <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
-
-                {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
+                <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />                
 
                 {children}
 

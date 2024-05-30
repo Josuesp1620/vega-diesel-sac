@@ -3,7 +3,7 @@ import { ContactComponent } from "./components/contact";
 
 export const ContactPage = () => {
     return (
-        <Layout breadcrumbTitle={'Contacto'}>
+        <Layout>
             <ContactComponent />
         </Layout>
     );

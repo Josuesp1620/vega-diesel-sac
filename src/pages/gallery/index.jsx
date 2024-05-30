@@ -3,7 +3,7 @@ import GalleryFilter from "@/pages/gallery/components/gallery"
 
 export const GalleryPage = () => {
     return (
-        <Layout breadcrumbTitle="Galeria">
+        <Layout>
                 
             {/* portfolio-section */}
             <section className="portfolio style__one two see__pad p_relative ">

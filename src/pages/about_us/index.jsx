@@ -3,7 +3,7 @@ import AboutUsComponent from "./components"
 
 export const AboutUsPage = () => {
     return (
-        <Layout breadcrumbTitle={"Sobre Nosotros"}>
+        <Layout>
             <AboutUsComponent />
         </Layout>
     )
