@@ -25,23 +25,19 @@ export default function AboutUsComponent() {
                             <div className="about__three__left">
                             <div className="title">
                                 <div className="sub__title">
-                                <h6>About Rooftox</h6>
+                                <h6 className='text-black'>Acerca de Nostros</h6>
                                 </div>
                                 <div className="main__title">
                                 <h2>
-                                    Experienced &amp; <br />
-                                    Quality More Than <br />
-                                    30 Years
+                                    Experiencia & <br />
+                                    Calidad por mas de <br />
+                                    5 Años
                                 </h2>
                                 </div>
                             </div>
                             <div className="normal__text">
                                 <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Adipiscing integer ultrices suspendisse varius etiam est. Est,
-                                felis, tempus nec vitae orci sodales Metus, velit nec at diam
-                                in sed. Massa dui ipsum ornare sagittis dolor sagittis amet
-                                odio est. Sit semper et velit fusce.
+                                En VEGA DIESEL SAC, ofrecemos una amplia gama de servicios para asegurar el óptimo funcionamiento de sus equipos y sistemas industriales. Nos especializamos en mantenimiento preventivo y correctivo, así como en la venta y alquiler de grupos electrógenos multimarca, tanto Diesel como gasolina. También contamos con equipos de elevación tipo tijera y telescópica, y ofrecemos mantenimiento y rebobinado de motores eléctricos monofásicos y trifásicos. Nuestro compromiso es brindar servicios de calidad y desarrollar proyectos de ingeniería y mantenimiento integral.
                                 </p>
                             </div>
                             <div className="engineer__section">
@@ -51,15 +47,13 @@ export default function AboutUsComponent() {
                                     <div className="engineer__content__list">
                                         <ul>
                                         <li>
-                                            <span className="icon-21" /> Innovative Work
-                                            Experience
+                                            <span className="icon-21" /> Servicio de Mantenimiento Integral
                                         </li>
                                         <li>
-                                            <span className="icon-21" /> 100% Satisfaction
-                                            Guarantee
+                                            <span className="icon-21" /> Ingenieros Expertos de Calidad
                                         </li>
                                         <li>
-                                            <span className="icon-21" /> Quality Expert Engineer
+                                            <span className="icon-21" /> Soluciones Personalizadas
                                         </li>
                                         </ul>
                                     </div>
@@ -70,29 +64,16 @@ export default function AboutUsComponent() {
                                     <div className="engineer__content__list">
                                         <ul>
                                         <li>
-                                            <span className="icon-21" /> Certified Company
+                                            <span className="icon-21" /> Atención de Emergencias 24/7
+
                                         </li>
                                         <li>
-                                            <span className="icon-21" /> Roof Renovation
+                                            <span className="icon-21" /> Renovación y Mantenimiento de Equipos
                                         </li>
                                         </ul>
                                     </div>
                                     </div>
                                 </div>
-                                </div>
-                                <div className="about__btn">
-                                <Link className="btn-one" to="/about">
-                                    <em>
-                                    <i />
-                                    <i />
-                                    <i />
-                                    <i />
-                                    <i />
-                                    <i />
-                                    <i />
-                                    </em>
-                                    <span>Read More</span>
-                                </Link>
                                 </div>
                             </div>
                             </div>
